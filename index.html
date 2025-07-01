@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Event Manager</title>
   <link rel="stylesheet" href="index.css">
 
 </head>
+
 <body>
   <h1 class="text-center">Calendar Events Manager</h1>
 
-  <h3>Upcoming Events (Next 7 Days)</h3>
-  <ul id="upcomingEvents"></ul>
+  <div class="Tbh">
+    <h3>Upcoming Events (Next 7 Days)</h3>
+    <ul id="upcomingEvents"></ul>
+  </div>
 
   <h3>All Events</h3>
   <table>
     <thead>
-      <tr><th>Title</th><th>Date</th><th>Location</th><th>Attendees</th></tr>
+      <tr>
+        <th>Title</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Attendees</th>
+      </tr>
     </thead>
     <tbody id="eventTable"></tbody>
   </table>
 
-  <h3>Add Attendee</h3>
-  <input type="text" id="eventTitle" placeholder="Event Title" />
-  
-  <input type="text" id="attendeeName" placeholder="Attendee Name" />
-  <button onclick="addAttendee()">Add</button>
+  <div class="selection">
+    <h3>Add Attendee</h3>
+    <input type="text" id="eventTitle" placeholder="Event Title" />
+
+    <input type="text" id="attendeeName" placeholder="Attendee Name" />
+    <button onclick="addAttendee()">Add</button>
+  </div>
 
   <script src="index.js"></script>
 </body>
-</html>
 
+</html>

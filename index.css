@@ -1,4 +1,47 @@
-body { font-family: sans-serif; padding: 2em; }
-    table { width: 100%; border-collapse: collapse; margin-top: 1em; }
-    th, td { border: 4px solid #3673ac; padding: 20px; text-align: left; }
-    th { background-color: hsl(236, 94%, 51%); }
+body {
+    font-family: sans-serif;
+    padding: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th,
+td {
+    border: 4px solid #3673ac;
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    background-color: hsl(236, 94%, 51%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.selection{
+    text-align: center;
+    padding: 80px 60px;
+}
+
+button:hover{
+    color:white;
+}
+
+button {
+    background-color:blue;
+    padding: 8px 20px;
+}
+
+input {
+    padding: 12px 40px;
+}
+
+.Tbh {
+    text-align:inherit
+}

@@ -1,28 +1,24 @@
 const events = [
   {
-    title: "Church Seminar",
-    date: new Date("2025-07-04=6"),
-    location: "JCC Valley Road",
+    title: "Bootcamp",
+    date: new Date("2025-07-02"),
+    location: "Valley Road",
     attendees: new Set(["Seth", "Jane", "Levis"])
   },
   {
     title: "Developer`s Event",
-    date: new Date("2025-06-29"),
+    date: new Date("2025-07-5"),
     location: "Zuri Hotel",
     attendees: new Set(["Carol"])
   },
   {
     title: "Product Launch",
-    date: new Date("2025-07-05"),
+    date: new Date("2025-07-08"),
     location: "Company HQ",
     attendees: new Set(["Dave", "Eve", "Frank"])
   }
 ];
 
-const organizers = new WeakMap();
-organizers.set(events[0], "Gabriel");
-organizers.set(events[1], "Lina");
-organizers.set(events[2], "Marco");
 
 function renderEvents() {
   const tbody = document.getElementById("eventTable");
